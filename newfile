@@ -1,0 +1,85 @@
+Q.  Difference b/w System.out and System.err?
+
+System.out and System.err both represent the moniter by default and hence can be used to send data
+or results to the moniter. System.out is used to display normal messages and results,. whereas System.err is used to display error
+messages.
+
+Q.  On which memory, arrays are created in java?
+
+Arrays are created on dynamic memory by JVM. There is no question of static memory in java;
+everything (Variable, array, object etc..) is created on dynamic  memory only.
+
+
+Q.  Is String a class or data type?
+
+String is class in java.lang package. But in java, All classes are also considered as data types. So we can take String
+as a data type also.
+Can we call a class as a data type?
+Yes, a class is also called 'user-defined' data types. This  is because a user can create a class.
+
+String class methods:
+1. String concat(String s):
+2. int length():
+3. char charAt(int i):
+4. int compareTo(String s)
+5. int compareToIgnoreCase(String s)
+6. boolean equals(String s)
+7. boolean equalsIgnoreCase(String s)
+8. boolean startWith(String s)
+9. boolean endsWith(String s)
+10. int indexOf(String s)
+11. int lastIndexOf(String s)
+12. String replace(char ch1, char ch2)
+13. String substring(int i)
+14. String substring(int i, int j)
+15. String toLowerCase()
+16. String toUpperCase()
+17. String trim()
+18. void getChars(int i1, int i2,char arr[], int i3)
+19. String[] split(delimiter)
+
+
+
+
+Q what is object reference?
+
+Object reference is a unique hexadecimal number representing the memory address of the object.
+It is useful to access the members of the object.
+
+
+Q Difference between == and equals()?
+
+== operators compares the references of the string objects. it does not compare the contents of the object. equals()
+method compares the contents. while comparing the strings, equals() method should be used as it yields the correct result.
+
+
+Q Difference b/w 
+    String s ="Hello";
+    String s = new String("Hello");
+
+In first statement, assignment operator is used to assign the string literal to the String variable s.
+In this case, JVM first of all checks whether the same object is already available in the string constant pool.
+If it is available, then it creates another reference to it. If the same object is not available, then it creates 
+another object with the content "Hello" and stores it  into string constant pool.
+Second Statement, new operator is used to create the string object. In this case, JVM always creates a new object 
+without looking in the string constant pool.
+
+
+Q. String v/s StringBuffer Classes?
+
+String class objects are immutable and hence their contents cannot be modified. StringBuffer class objects are mutable.
+So they can be modified. Moreover the methods that directly manipulate data of the object are not available in string 
+class. Such methods are available in StringBuffer class.
+
+
+StringBuffer Class Methods
+1. append(x)  --x may be boolean,int,char,string etc
+2. insert(int i,x)
+3. delete(int i, int j)
+4. reverse();
+5. length()
+6. indexOf(String str)
+7. lastIndexOf(String str)
+8. replace(int i, int j, String str)
+9. String substring(int i)
+10. String substring(int i,int j)

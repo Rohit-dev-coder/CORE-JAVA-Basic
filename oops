@@ -1,0 +1,30 @@
+Q. What are instance method?
+
+Instance methods are the methods which act on the instance variables of the class. To call the instance methods,
+we should use the form:
+objectname.methodname();
+
+Q. What are static method?
+
+Static methods are the methods which do not act upon the instance variables of a class. Static methods are declared
+as 'static'.
+
+Q instance variable v/s class variable.
+
+An Instance variable is a variable whose separate copy is available to each object. A class variable is a variable 
+whose single copy in memory is shared by all objects.
+Instance variable are created in the objects on heap memory. Class variables are stored on method area.
+
+Q. What is factory method?
+
+A factory method is method that creates and returns an object to the class to which it belongs. A single factory
+method replaces several constructors in the class by accepting different options from the user, while creating the object.
+
+Q Why super class method are available to sub class?
+Because the sub class object contains a copy of super class object.
+
+Q What is the advantage of Inheritance?
+In inheritance, a programmer reuses the super class code without rewriting it, in creation of sub classes.
+So, developing the classes becomes very easy. Hence the programmer's productivity is increased.
+
+

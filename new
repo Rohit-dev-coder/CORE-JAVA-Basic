@@ -1,0 +1,33 @@
+Q What is Coercion?
+Coercion is the automatic conversion between different data types done by the compiler.
+
+Q What is Conversion?
+Conversion is an explicit change in the data type specified by the cast operator.
+
+Q. What is method signature?
+Method signature represents the method name along with method parameters.
+
+Q. What is method overloading?
+Writing two or more methods in the same class in such way that each method has same name but different method signatures
+is called method overloading.
+
+Q. What is method overriding?
+Writing two or more methods in super and sub classes such that the method have same name and same signatures is called
+method overriding.
+
+
+few points about method overloading.
+1. Writing two or more methods with same name but with different signatures is called method overloading.
+2. Method overloading is done in the same class.
+3. Return type can be same or different.
+4. JVM decides which method is called depending on the difference in the method signatures.
+5. It is done when the programmer wants to extend the already available feature.
+6. Its a code refinement.
+
+few points about method overriding.
+1. Writing two or more methods with same name and same signatures is called method overloading.
+2. Method overriding is done in super and sub class.
+3. Method return type should be same.
+4. JVM decides which method is called depending on the data types (class) of the object used to call the method.
+5. It is done when the programmer wants to provide a different  implementation(body) for the same feature.
+6. Its a code replacement.

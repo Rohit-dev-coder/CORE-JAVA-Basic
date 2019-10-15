@@ -1,0 +1,16 @@
+1. An interface is a specification of method prototypes. This means, only method names are written in the interface
+   without method bodies.
+2. An interface will have 0 or more abstract methods which are all public and abstract by default.
+3. An interface can have variables which are public static and final by default. This means all the variables of the 
+    interface are constants.
+4. None of the methods is an interface can be private, protected and static.
+5. We cannot create an object to an interface, but we can create a reference of interface type.
+6. All the methods of an interface should be implemented in its implementation classes. If any method is not implemented
+    , then that implementation class should be declared as 'abstract'.
+7. interface reference can refer to the objects of its implementation classes.
+8. when an interface is written, any third party vendor can provide implementation classes to it.
+9. an interface can extend another interface.
+10. An interface cannot implement another interface.
+11. It is possible to write a class within an interface.
+12. Interface forces the implementation classes to implement all of its methods compulsory. Java compiler checks whether 
+    all the methods are implemented in the implementation classes or not.

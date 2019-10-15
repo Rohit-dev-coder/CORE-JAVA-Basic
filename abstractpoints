@@ -1,0 +1,19 @@
+Some Points about Abstract:
+
+1. An abstract class is a class that contains 0 or more abstract methods.
+2. An abstract class can contain instance variables and concrete methods in addition to abstract methods.
+3. Abstract Class and the abstract methods should be declared by using the keyword 'abstract'.
+4. All the abstract methods of the abstract class should be implemented (body) in its sub classes.
+5. If any abstract method is not implemented, then that sub class should be declared as 'abstract'. In this case
+    ,we cannot create an object to the sub class. We should create another sub class to this sub class and implement
+    the remaining abstract method there.
+6. We cannot create an object to abstract class. But we can create a reference of abstract class type.
+7. The reference of abstract class can be used to refer to objects of its subclasses.
+8. The reference of abstract class can not be refers to individual method of its subclasses.
+9. It is possible to drive an abstract class as a sub class from a concrete super class.
+10. We cannot declare a class as both abstract and final. Example 
+        abstract final class A  //invalid
+    because the keyword abstract represents an incomplete class which depends on the sub classes for its implementation
+    Creating sub class is compulsory for abstract class. Final key word prevents inheritance. This means, we cannot
+    create sub class to a final class.
+    So, the key words abstract and final are contradictory and hence both can not be used simultaneously for a class.
